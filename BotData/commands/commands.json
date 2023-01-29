@@ -1,0 +1,2863 @@
+{
+  "command": [
+    {
+      "name": "help",
+      "actions": [
+        {
+          "name": "deleteMessage_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "CheckRole",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "HelpEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "fields": [
+                {
+                  "name": "=warn @username (reason)",
+                  "value": "You can warn a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=kick @username (reason)",
+                  "value": "You can kick a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=ban @username (day/s) (reason)",
+                  "value": "You can ban a user.",
+                  "inline": "true"
+                }
+              ],
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "AB0000",
+              "title": "All commands",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "Here you can see all commands:",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "https://cdn.discordapp.com/attachments/1031983546950242385/1031983739359731842/redline.jpg",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "HelpEmbed_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "h",
+      "actions": [
+        {
+          "name": "deleteMessage_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "CheckRole",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "HelpEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "fields": [
+                {
+                  "name": "=warn @username (reason)",
+                  "value": "You can warn a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=kick @username (reason)",
+                  "value": "You can kick a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=ban @username (day/s) (reason)",
+                  "value": "You can ban a user.",
+                  "inline": "true"
+                }
+              ],
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "AB0000",
+              "title": "All commands",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "Here you can see all commands:",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "https://cdn.discordapp.com/attachments/1031983546950242385/1031983739359731842/redline.jpg",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "HelpEmbed_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "H",
+      "actions": [
+        {
+          "name": "deleteMessage_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "CheckRole",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "HelpEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "fields": [
+                {
+                  "name": "=warn @username (reason)",
+                  "value": "You can warn a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=kick @username (reason)",
+                  "value": "You can kick a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=ban @username (day/s) (reason)",
+                  "value": "You can ban a user.",
+                  "inline": "true"
+                }
+              ],
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "AB0000",
+              "title": "All commands",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "Here you can see all commands:",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "https://cdn.discordapp.com/attachments/1031983546950242385/1031983739359731842/redline.jpg",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "HelpEmbed_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "HELP",
+      "actions": [
+        {
+          "name": "deleteMessage_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "CheckRole",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "HelpEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "fields": [
+                {
+                  "name": "=warn @username (reason)",
+                  "value": "You can warn a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=kick @username (reason)",
+                  "value": "You can kick a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=ban @username (day/s) (reason)",
+                  "value": "You can ban a user.",
+                  "inline": "true"
+                }
+              ],
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "AB0000",
+              "title": "All commands",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "Here you can see all commands:",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "https://cdn.discordapp.com/attachments/1031983546950242385/1031983739359731842/redline.jpg",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "HelpEmbed_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "hElP",
+      "actions": [
+        {
+          "name": "deleteMessage_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "CheckRole",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "HelpEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "fields": [
+                {
+                  "name": "=warn @username (reason)",
+                  "value": "You can warn a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=kick @username (reason)",
+                  "value": "You can kick a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=ban @username (day/s) (reason)",
+                  "value": "You can ban a user.",
+                  "inline": "true"
+                }
+              ],
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "AB0000",
+              "title": "All commands",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "Here you can see all commands:",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "https://cdn.discordapp.com/attachments/1031983546950242385/1031983739359731842/redline.jpg",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "HelpEmbed_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "hELP",
+      "actions": [
+        {
+          "name": "deleteMessage_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "CheckRole",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "HelpEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "fields": [
+                {
+                  "name": "=warn @username (reason)",
+                  "value": "You can warn a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=kick @username (reason)",
+                  "value": "You can kick a user.",
+                  "inline": "true"
+                },
+                {
+                  "name": "=ban @username (day/s) (reason)",
+                  "value": "You can ban a user.",
+                  "inline": "true"
+                }
+              ],
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "AB0000",
+              "title": "All commands",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "Here you can see all commands:",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "https://cdn.discordapp.com/attachments/1031983546950242385/1031983739359731842/redline.jpg",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "HelpEmbed_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "rules",
+      "perms": [
+        "leader"
+      ],
+      "actions": [
+        {
+          "name": "deleteMessage",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "RulesEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "0008FF",
+          "title": "Rules:",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "1. No hate speech\n2. No sexism\n3. No racism\n4. No insults\n5. No flirting\n6. No trolling\n7. No spamming\n8. No advertising\n9. No illegal content\n10. No bots or fake accounts\n11. No NSFW/NSFL content\n12. No pornographic content or other nudity.",
+          "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "rulesEmbed",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "RulesReaction",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "<:Abook:1031989742088224849>": []
+          },
+          "messageActionRows": [],
+          "message": "${tempVars.rulesEmbed.id}",
+          "duration": "0",
+          "reactionemoji": "RulesEmoji",
+          "reactionuser": "RulesUser",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "warn",
+      "actions": [
+        {
+          "name": "Check",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "Delete",
+              "category": "Message",
+              "type": "Delete Message",
+              "messageActionRows": [],
+              "varname": "${dbsVars.CommandMessage.id}",
+              "channelname": "${dbsVars.CommandChannel.id}"
+            },
+            {
+              "name": "user-to-warn",
+              "category": "Variable",
+              "type": "Get Mentioned User",
+              "messageActionRows": [],
+              "varname": "UserToWarn",
+              "vartype": "User",
+              "savevartype": "temp"
+            },
+            {
+              "name": "reason",
+              "category": "Variable",
+              "type": "Store Value in Variable",
+              "messageActionRows": [],
+              "varname": "ReasonToWarn",
+              "vartype": "Text",
+              "savevartype": "temp",
+              "param": "2+"
+            },
+            {
+              "name": "Warn",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "1032319378609418270",
+              "color": "F6FF00",
+              "title": "Warn ID:${tempVars.UserToWarn.id}",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "User: <@${tempVars.UserToWarn.id}>\nTeam Member: `${dbsVars.CommandAuthor.user.tag}`\nReason: `${tempVars.ReasonToWarn}`",
+              "thumbnail": "${tempVars.UserToWarn.user.defaultAvatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "Warn_2",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${tempVars.UserToWarn.user.dmChannel}",
+              "color": "F6FF00",
+              "title": "Warn!",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "User ${tempVars.UserToWarn.user.tag} You have been warned.\nReason: ${tempVars.ReasonToWarn}",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "Delete_1",
+              "category": "Message",
+              "type": "Delete Message",
+              "messageActionRows": [],
+              "varname": "${dbsVars.CommandMessage.id}",
+              "channelname": "${dbsVars.CommandChannel.id}"
+            },
+            {
+              "name": "Warn_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "ban",
+      "actions": [
+        {
+          "name": "Check1",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "Delete_2",
+              "category": "Message",
+              "type": "Delete Message",
+              "messageActionRows": [],
+              "varname": "${dbsVars.CommandMessage.id}",
+              "channelname": "${dbsVars.CommandChannel.id}"
+            },
+            {
+              "name": "user-to-warn_1",
+              "category": "Variable",
+              "type": "Get Mentioned User",
+              "messageActionRows": [],
+              "varname": "UserToBan",
+              "vartype": "User",
+              "savevartype": "temp"
+            },
+            {
+              "name": "reason_1_1",
+              "category": "Variable",
+              "type": "Store Value in Variable",
+              "messageActionRows": [],
+              "varname": "DaysForBan",
+              "vartype": "Number",
+              "savevartype": "temp",
+              "param": "2"
+            },
+            {
+              "name": "reason_1",
+              "category": "Variable",
+              "type": "Store Value in Variable",
+              "messageActionRows": [],
+              "varname": "ReasonToBan",
+              "vartype": "Text",
+              "savevartype": "temp",
+              "param": "3+"
+            },
+            {
+              "name": "BanEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "1034914978559447100",
+              "color": "FF0000",
+              "title": "Ban from ${dbsVars.CommandAuthor.displayName}",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "<@${tempVars.UserToBan.id}> was banned for `${tempVars.DaysForBan}` Days because of `${tempVars.ReasonToBan}`",
+              "thumbnail": "",
+              "image": "https://cdn.discordapp.com/attachments/1031983546950242385/1034911391389319198/tenor.gif",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "Ban",
+              "category": "User Action",
+              "type": "Ban User",
+              "messageActionRows": [],
+              "user": "${tempVars.UserToBan.id}",
+              "reason": "${tempVars.ReasonToBan}",
+              "days": "${tempVars.DaysForBan}"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "Delete_1",
+              "category": "Message",
+              "type": "Delete Message",
+              "messageActionRows": [],
+              "varname": "${dbsVars.CommandMessage.id}",
+              "channelname": "${dbsVars.CommandChannel.id}"
+            },
+            {
+              "name": "Warn_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "kick",
+      "actions": [
+        {
+          "name": "Check2",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "Delete_3",
+              "category": "Message",
+              "type": "Delete Message",
+              "messageActionRows": [],
+              "varname": "${dbsVars.CommandMessage.id}",
+              "channelname": "${dbsVars.CommandChannel.id}"
+            },
+            {
+              "name": "user-to-warn_2",
+              "category": "Variable",
+              "type": "Get Mentioned User",
+              "messageActionRows": [],
+              "varname": "UserToKick",
+              "vartype": "User",
+              "savevartype": "temp"
+            },
+            {
+              "name": "reason_2",
+              "category": "Variable",
+              "type": "Store Value in Variable",
+              "messageActionRows": [],
+              "varname": "ReasonToKick",
+              "vartype": "Text",
+              "savevartype": "temp",
+              "param": "2+"
+            },
+            {
+              "name": "BanEmbed_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "1034914978559447100",
+              "color": "FBFF00",
+              "title": "Kick from ${dbsVars.CommandAuthor.displayName}",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "<@${tempVars.UserToKick.id}> was kicked because of `${tempVars.ReasonToKick}`",
+              "thumbnail": "",
+              "image": "https://media.discordapp.net/attachments/1031983546950242385/1034917317232054332/tenor_1.gif",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "Kick",
+              "category": "User Action",
+              "type": "Kick User",
+              "messageActionRows": [],
+              "user": "${tempVars.UserToKick.id}",
+              "reason": "${tempVars.ReasonToBan}${tempVars.ReasonToKick}"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "Delete_1",
+              "category": "Message",
+              "type": "Delete Message",
+              "messageActionRows": [],
+              "varname": "${dbsVars.CommandMessage.id}",
+              "channelname": "${dbsVars.CommandChannel.id}"
+            },
+            {
+              "name": "Warn_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "nuke",
+      "perms": [
+        "leader"
+      ],
+      "actions": [
+        {
+          "name": "NukeEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Red Button",
+                  "customid": "nukeBTN",
+                  "style": "DANGER",
+                  "emoji": "",
+                  "URL": "",
+                  "ephemeral": true
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FFFB00",
+          "title": "Nuke",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "https://media.discordapp.net/attachments/1031983546950242385/1034922716605726780/nuke-banner.jpg",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "t",
+      "actions": [
+        {
+          "name": "DeleteMessage",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "Reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "ticketReason",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "openTicket",
+          "category": "Channel Action",
+          "type": "Create Channel",
+          "messageActionRows": [],
+          "channelname": "Ticket-${dbsVars.CommandAuthor.user.tag}",
+          "chancategory": "~~ 𝗧𝗜𝗖𝗞𝗘𝗧𝗦 ~~",
+          "reason": "${tempVars.ticketReason}",
+          "channeltype": "Text",
+          "savetovariable": "openTicketOwner",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "permissions",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "${dbsVars.CommandAuthor.id}",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "permissions_1",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "1031982055594143784",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "TicketEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "color": "2F3136",
+          "title": "Info",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "The reason:\n**${tempVars.ticketReason}**\n\nUser:\n<@${dbsVars.CommandAuthor.id}>\n\nUser id:\n**${dbsVars.CommandAuthor.id}**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "ticketClose",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "CloseTicket_1_1",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "❌": [
+              {
+                "name": "closeTicket",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.ticketClose.channel.id}",
+                "reason": "Ticket close"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "message": "${tempVars.ticketClose.id}",
+          "duration": "0",
+          "reactionemoji": "CloseEmoji",
+          "reactionuser": "CloseReacted",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "T",
+      "actions": [
+        {
+          "name": "DeleteMessage",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "Reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "ticketReason",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "openTicket",
+          "category": "Channel Action",
+          "type": "Create Channel",
+          "messageActionRows": [],
+          "channelname": "Ticket-${dbsVars.CommandAuthor.user.tag}",
+          "chancategory": "~~ 𝗧𝗜𝗖𝗞𝗘𝗧𝗦 ~~",
+          "reason": "${tempVars.ticketReason}",
+          "channeltype": "Text",
+          "savetovariable": "openTicketOwner",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "permissions",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "${dbsVars.CommandAuthor.id}",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "permissions_1",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "1031982055594143784",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "TicketEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "color": "2F3136",
+          "title": "Info",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "The reason:\n**${tempVars.ticketReason}**\n\nUser:\n<@${dbsVars.CommandAuthor.id}>\n\nUser id:\n**${dbsVars.CommandAuthor.id}**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "ticketClose",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "CloseTicket_1_1",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "❌": [
+              {
+                "name": "closeTicket",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.ticketClose.channel.id}",
+                "reason": "Ticket close"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "message": "${tempVars.ticketClose.id}",
+          "duration": "0",
+          "reactionemoji": "CloseEmoji",
+          "reactionuser": "CloseReacted",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "ticket",
+      "actions": [
+        {
+          "name": "DeleteMessage",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "Reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "ticketReason",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "openTicket",
+          "category": "Channel Action",
+          "type": "Create Channel",
+          "messageActionRows": [],
+          "channelname": "Ticket-${dbsVars.CommandAuthor.user.tag}",
+          "chancategory": "~~ 𝗧𝗜𝗖𝗞𝗘𝗧𝗦 ~~",
+          "reason": "${tempVars.ticketReason}",
+          "channeltype": "Text",
+          "savetovariable": "openTicketOwner",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "permissions",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "${dbsVars.CommandAuthor.id}",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "permissions_1",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "1031982055594143784",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "TicketEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "color": "2F3136",
+          "title": "Info",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "The reason:\n**${tempVars.ticketReason}**\n\nUser:\n<@${dbsVars.CommandAuthor.id}>\n\nUser id:\n**${dbsVars.CommandAuthor.id}**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "ticketClose",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "CloseTicket_1_1",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "❌": [
+              {
+                "name": "closeTicket",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.ticketClose.channel.id}",
+                "reason": "Ticket close"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "message": "${tempVars.ticketClose.id}",
+          "duration": "0",
+          "reactionemoji": "CloseEmoji",
+          "reactionuser": "CloseReacted",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "Ticket",
+      "actions": [
+        {
+          "name": "DeleteMessage",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "Reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "ticketReason",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "openTicket",
+          "category": "Channel Action",
+          "type": "Create Channel",
+          "messageActionRows": [],
+          "channelname": "Ticket-${dbsVars.CommandAuthor.user.tag}",
+          "chancategory": "~~ 𝗧𝗜𝗖𝗞𝗘𝗧𝗦 ~~",
+          "reason": "${tempVars.ticketReason}",
+          "channeltype": "Text",
+          "savetovariable": "openTicketOwner",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "permissions",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "${dbsVars.CommandAuthor.id}",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "permissions_1",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "1031982055594143784",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "TicketEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "color": "2F3136",
+          "title": "Info",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "The reason:\n**${tempVars.ticketReason}**\n\nUser:\n<@${dbsVars.CommandAuthor.id}>\n\nUser id:\n**${dbsVars.CommandAuthor.id}**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "ticketClose",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "CloseTicket_1_1",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "❌": [
+              {
+                "name": "closeTicket",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.ticketClose.channel.id}",
+                "reason": "Ticket close"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "message": "${tempVars.ticketClose.id}",
+          "duration": "0",
+          "reactionemoji": "CloseEmoji",
+          "reactionuser": "CloseReacted",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "TICKET",
+      "actions": [
+        {
+          "name": "DeleteMessage",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "Reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "ticketReason",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "openTicket",
+          "category": "Channel Action",
+          "type": "Create Channel",
+          "messageActionRows": [],
+          "channelname": "Ticket-${dbsVars.CommandAuthor.user.tag}",
+          "chancategory": "~~ 𝗧𝗜𝗖𝗞𝗘𝗧𝗦 ~~",
+          "reason": "${tempVars.ticketReason}",
+          "channeltype": "Text",
+          "savetovariable": "openTicketOwner",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "permissions",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "${dbsVars.CommandAuthor.id}",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "permissions_1",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "1031982055594143784",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "TicketEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "color": "2F3136",
+          "title": "Info",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "The reason:\n**${tempVars.ticketReason}**\n\nUser:\n<@${dbsVars.CommandAuthor.id}>\n\nUser id:\n**${dbsVars.CommandAuthor.id}**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "ticketClose",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "CloseTicket_1_1",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "❌": [
+              {
+                "name": "closeTicket",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.ticketClose.channel.id}",
+                "reason": "Ticket close"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "message": "${tempVars.ticketClose.id}",
+          "duration": "0",
+          "reactionemoji": "CloseEmoji",
+          "reactionuser": "CloseReacted",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "tIcKeT",
+      "actions": [
+        {
+          "name": "DeleteMessage",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "Reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "ticketReason",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "openTicket",
+          "category": "Channel Action",
+          "type": "Create Channel",
+          "messageActionRows": [],
+          "channelname": "Ticket-${dbsVars.CommandAuthor.user.tag}",
+          "chancategory": "~~ 𝗧𝗜𝗖𝗞𝗘𝗧𝗦 ~~",
+          "reason": "${tempVars.ticketReason}",
+          "channeltype": "Text",
+          "savetovariable": "openTicketOwner",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "permissions",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "${dbsVars.CommandAuthor.id}",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "permissions_1",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "1031982055594143784",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "TicketEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "color": "2F3136",
+          "title": "Info",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "The reason:\n**${tempVars.ticketReason}**\n\nUser:\n<@${dbsVars.CommandAuthor.id}>\n\nUser id:\n**${dbsVars.CommandAuthor.id}**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "ticketClose",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "CloseTicket_1_1",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "❌": [
+              {
+                "name": "closeTicket",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.ticketClose.channel.id}",
+                "reason": "Ticket close"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "message": "${tempVars.ticketClose.id}",
+          "duration": "0",
+          "reactionemoji": "CloseEmoji",
+          "reactionuser": "CloseReacted",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "TiCkEt",
+      "actions": [
+        {
+          "name": "DeleteMessage",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "Reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "ticketReason",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "openTicket",
+          "category": "Channel Action",
+          "type": "Create Channel",
+          "messageActionRows": [],
+          "channelname": "Ticket-${dbsVars.CommandAuthor.user.tag}",
+          "chancategory": "~~ 𝗧𝗜𝗖𝗞𝗘𝗧𝗦 ~~",
+          "reason": "${tempVars.ticketReason}",
+          "channeltype": "Text",
+          "savetovariable": "openTicketOwner",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "permissions",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "${dbsVars.CommandAuthor.id}",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "permissions_1",
+          "category": "Channel Action",
+          "type": "Update Channel Permissions",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "permid": "1031982055594143784",
+          "permissions": [
+            "VIEW_CHANNEL",
+            "SEND_MESSAGES"
+          ],
+          "allow": "Allow"
+        },
+        {
+          "name": "TicketEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${tempVars.openTicketOwner.id}",
+          "color": "2F3136",
+          "title": "Info",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "The reason:\n**${tempVars.ticketReason}**\n\nUser:\n<@${dbsVars.CommandAuthor.id}>\n\nUser id:\n**${dbsVars.CommandAuthor.id}**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "ticketClose",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "CloseTicket_1_1",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "❌": [
+              {
+                "name": "closeTicket",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.ticketClose.channel.id}",
+                "reason": "Ticket close"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "message": "${tempVars.ticketClose.id}",
+          "duration": "0",
+          "reactionemoji": "CloseEmoji",
+          "reactionuser": "CloseReacted",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "support-text",
+      "perms": [
+        "leader"
+      ],
+      "actions": [
+        {
+          "name": "wdwd",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "open ticket",
+                  "customid": "openTicketBTN",
+                  "style": "SUCCESS",
+                  "emoji": "<:nelio_ticket:1041343311807533076>",
+                  "URL": "",
+                  "ephemeral": true
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "2F3136",
+          "title": "Support Commands",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Here you can see a tutorial for the support commands:\n\n**You have two ways to open a support ticket. Either make \"=t\" or you press the button where it says \"open ticket\".**\n\nIf you make a ticket via command, you can also write your reason behind the command. For example: \"**+t** `I found an error!`\"",
+          "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+          "image": "https://media.discordapp.net/attachments/1031983546950242385/1041341604151173130/Cbanner.gif",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "link",
+      "perms": [],
+      "actions": []
+    },
+    {
+      "name": "team-commands",
+      "perms": [
+        "leader"
+      ],
+      "actions": [
+        {
+          "name": "wdwd_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "2F3136",
+          "title": "Team rules:",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+          "image": "https://media.discordapp.net/attachments/1031983546950242385/1041341604151173130/Cbanner.gif",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "bottie",
+      "actions": [
+        {
+          "name": "BottieActivity",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "ActivityFromBottie",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "Wait",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "1",
+          "unit": "seconds"
+        },
+        {
+          "name": "SetBot",
+          "category": "Bot Action",
+          "type": "Set Bot Activity",
+          "messageActionRows": [],
+          "activityname": "${tempVars.ActivityFromBottie}",
+          "activitytype": "PLAYING",
+          "streamurl": ""
+        },
+        {
+          "name": "BottieEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "1045814518405681163",
+          "color": "05FF8F",
+          "title": "",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "<@${dbsVars.CommandAuthor.id}> set Bottie Activity to `${tempVars.ActivityFromBottie}`!",
+          "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "perms": [],
+      "actions": [
+        {
+          "name": "Title",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "InfoTitle",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "1"
+        },
+        {
+          "name": "Text",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "InfoText",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "2+"
+        },
+        {
+          "name": "deleteMessage_1_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "CheckUserRole",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "InformationEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "AB0000",
+              "title": "${tempVars.InfoTitle}",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${tempVars.InfoText}",
+              "thumbnail": "${dbsVars.guild.iconURL}",
+              "image": "https://media.discordapp.net/attachments/1031983546950242385/1046810490686427156/Infobanner.gif?width=947&height=158",
+              "footer": "",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "HelpEmbed_1_1_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "partner-text",
+      "perms": [
+        "leader"
+      ],
+      "actions": [
+        {
+          "name": "wdwd_2",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Let's go!",
+                  "customid": "PartnerBTN",
+                  "style": "PRIMARY",
+                  "emoji": "🎉",
+                  "URL": "",
+                  "ephemeral": true
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FFFB00",
+          "title": "Partner",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Hey, you want to become a partner of ours? Then open a chat by clicking the button below that embed. But before you do that, I'll tell you what you get as a partner of Pawak Games. You get **cool features** on our server, you can **play games from us before the others**, and **you get cool designs for free**, like these players here.\n\nTo work with us, you must be \n- **at least 14 years old**\n- **own** a Discord server",
+          "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "giveaway",
+      "perms": [
+        "a-team"
+      ],
+      "actions": [
+        {
+          "name": "DeleteMessage_1_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "Time",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "GiveawayTime",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "1"
+        },
+        {
+          "name": "timeEmbed",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "timeEmbed",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "2"
+        },
+        {
+          "name": "GifeName",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "GiveawayName",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "3+"
+        },
+        {
+          "name": "CheckRoleUser",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "GiveawayEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "fields": [
+                {
+                  "name": "💎 **Price:**",
+                  "value": "${tempVars.GiveawayName}",
+                  "inline": "false"
+                },
+                {
+                  "name": "⏱ **Time:**",
+                  "value": "${tempVars.GiveawayTime} ${tempVars.timeEmbed}",
+                  "inline": "false"
+                },
+                {
+                  "name": "👤 **Winner:**",
+                  "value": "❌",
+                  "inline": "true"
+                }
+              ],
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF00E1",
+              "title": "🎉 Giveaway! 🎉",
+              "url": "",
+              "authorname": "From ${dbsVars.CommandAuthor.user.tag}",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "",
+              "footer": "",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "giveAwayEmbed",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "GiveawayReaction",
+              "category": "Reaction",
+              "type": "Add Reaction Listener",
+              "reactionActions": {
+                "🎉": [
+                  {
+                    "name": "Time?",
+                    "category": "Control",
+                    "type": "Switch Case",
+                    "valueActions": {
+                      "seconds": [
+                        {
+                          "name": "SecondWait",
+                          "category": "Control",
+                          "type": "Wait",
+                          "messageActionRows": [],
+                          "waitduration": "${tempVars.GiveawayTime}",
+                          "unit": "seconds"
+                        },
+                        {
+                          "name": "DeleteMessage_1_1_1",
+                          "category": "Message",
+                          "type": "Delete Message",
+                          "messageActionRows": [],
+                          "varname": "${tempVars.giveAwayEmbed.id}",
+                          "channelname": "${dbsVars.CommandChannel.id}"
+                        },
+                        {
+                          "name": "SecondWait_1",
+                          "category": "Control",
+                          "type": "Wait",
+                          "messageActionRows": [],
+                          "waitduration": "3",
+                          "unit": "seconds"
+                        },
+                        {
+                          "name": "RandomUser",
+                          "category": "User Action",
+                          "type": "RandomUser",
+                          "messageActionRows": [],
+                          "msgid": "${tempVars.FinalGiveawayEmbed.id}",
+                          "emojiid": "✅",
+                          "vartype": "temp",
+                          "varname": "randomUser"
+                        },
+                        {
+                          "name": "GiveawayEmbed_1",
+                          "category": "Message",
+                          "type": "Send Embed",
+                          "fields": [
+                            {
+                              "name": "💎 **Price:**",
+                              "value": "${tempVars.GiveawayName}",
+                              "inline": "false"
+                            },
+                            {
+                              "name": "⏱ **Time:**",
+                              "value": "${tempVars.GiveawayTime} hours",
+                              "inline": "false"
+                            },
+                            {
+                              "name": "👤 **Winner:**",
+                              "value": "${tempVars.randomUser}\n",
+                              "inline": "true"
+                            }
+                          ],
+                          "messageActionRows": [],
+                          "channelname": "${tempVars.giveAwayEmbed.channel.id}",
+                          "color": "FF00E1",
+                          "title": "🎉 Giveaway! 🎉",
+                          "url": "",
+                          "authorname": "From ${dbsVars.CommandAuthor.user.tag}",
+                          "authorimageurl": "",
+                          "authorlink": "",
+                          "description": "",
+                          "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+                          "image": "",
+                          "footer": "",
+                          "timestamp": "BOOL_TRUE@@",
+                          "savetovariable": "FinalGiveawayEmbed",
+                          "savetovariabletype": "temp"
+                        }
+                      ],
+                      "minutes": [
+                        {
+                          "name": "MinuteWait",
+                          "category": "Control",
+                          "type": "Wait",
+                          "messageActionRows": [],
+                          "waitduration": "${tempVars.GiveawayTime}",
+                          "unit": "minutes"
+                        },
+                        {
+                          "name": "DeleteMessage_1_1_1",
+                          "category": "Message",
+                          "type": "Delete Message",
+                          "messageActionRows": [],
+                          "varname": "${tempVars.giveAwayEmbed.id}",
+                          "channelname": "${dbsVars.CommandChannel.id}"
+                        },
+                        {
+                          "name": "SecondWait_1",
+                          "category": "Control",
+                          "type": "Wait",
+                          "messageActionRows": [],
+                          "waitduration": "3",
+                          "unit": "seconds"
+                        },
+                        {
+                          "name": "RandomUser",
+                          "category": "User Action",
+                          "type": "RandomUser",
+                          "messageActionRows": [],
+                          "msgid": "${tempVars.FinalGiveawayEmbed.id}",
+                          "emojiid": "✅",
+                          "vartype": "temp",
+                          "varname": "randomUser"
+                        },
+                        {
+                          "name": "GiveawayEmbed_1",
+                          "category": "Message",
+                          "type": "Send Embed",
+                          "fields": [
+                            {
+                              "name": "💎 **Price:**",
+                              "value": "${tempVars.GiveawayName}",
+                              "inline": "false"
+                            },
+                            {
+                              "name": "⏱ **Time:**",
+                              "value": "${tempVars.GiveawayTime} hours",
+                              "inline": "false"
+                            },
+                            {
+                              "name": "👤 **Winner:**",
+                              "value": "${tempVars.randomUser}\n",
+                              "inline": "true"
+                            }
+                          ],
+                          "messageActionRows": [],
+                          "channelname": "${tempVars.giveAwayEmbed.channel.id}",
+                          "color": "FF00E1",
+                          "title": "🎉 Giveaway! 🎉",
+                          "url": "",
+                          "authorname": "From ${dbsVars.CommandAuthor.user.tag}",
+                          "authorimageurl": "",
+                          "authorlink": "",
+                          "description": "",
+                          "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+                          "image": "",
+                          "footer": "",
+                          "timestamp": "BOOL_TRUE@@",
+                          "savetovariable": "FinalGiveawayEmbed",
+                          "savetovariabletype": "temp"
+                        }
+                      ],
+                      "hours": [
+                        {
+                          "name": "DeleteMessage_1_1_1",
+                          "category": "Message",
+                          "type": "Delete Message",
+                          "messageActionRows": [],
+                          "varname": "${tempVars.giveAwayEmbed.id}",
+                          "channelname": "${dbsVars.CommandChannel.id}"
+                        },
+                        {
+                          "name": "SecondWait_1",
+                          "category": "Control",
+                          "type": "Wait",
+                          "messageActionRows": [],
+                          "waitduration": "3",
+                          "unit": "seconds"
+                        },
+                        {
+                          "name": "RandomUser",
+                          "category": "User Action",
+                          "type": "RandomUser",
+                          "messageActionRows": [],
+                          "msgid": "${tempVars.FinalGiveawayEmbed.id}",
+                          "emojiid": "✅",
+                          "vartype": "temp",
+                          "varname": "randomUser"
+                        },
+                        {
+                          "name": "GiveawayEmbed_1",
+                          "category": "Message",
+                          "type": "Send Embed",
+                          "fields": [
+                            {
+                              "name": "💎 **Price:**",
+                              "value": "${tempVars.GiveawayName}",
+                              "inline": "false"
+                            },
+                            {
+                              "name": "⏱ **Time:**",
+                              "value": "${tempVars.GiveawayTime} hours",
+                              "inline": "false"
+                            },
+                            {
+                              "name": "👤 **Winner:**",
+                              "value": "${tempVars.randomUser}\n",
+                              "inline": "true"
+                            }
+                          ],
+                          "messageActionRows": [],
+                          "channelname": "${tempVars.giveAwayEmbed.channel.id}",
+                          "color": "FF00E1",
+                          "title": "🎉 Giveaway! 🎉",
+                          "url": "",
+                          "authorname": "From ${dbsVars.CommandAuthor.user.tag}",
+                          "authorimageurl": "",
+                          "authorlink": "",
+                          "description": "",
+                          "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+                          "image": "",
+                          "footer": "",
+                          "timestamp": "BOOL_TRUE@@",
+                          "savetovariable": "FinalGiveawayEmbed",
+                          "savetovariabletype": "temp"
+                        }
+                      ],
+                      "days": [
+                        {
+                          "name": "DeleteMessage_1_1_1",
+                          "category": "Message",
+                          "type": "Delete Message",
+                          "messageActionRows": [],
+                          "varname": "${tempVars.giveAwayEmbed.id}",
+                          "channelname": "${dbsVars.CommandChannel.id}"
+                        },
+                        {
+                          "name": "SecondWait_1",
+                          "category": "Control",
+                          "type": "Wait",
+                          "messageActionRows": [],
+                          "waitduration": "3",
+                          "unit": "seconds"
+                        },
+                        {
+                          "name": "RandomUser",
+                          "category": "User Action",
+                          "type": "RandomUser",
+                          "messageActionRows": [],
+                          "msgid": "${tempVars.FinalGiveawayEmbed.id}",
+                          "emojiid": "✅",
+                          "vartype": "temp",
+                          "varname": "randomUser"
+                        },
+                        {
+                          "name": "GiveawayEmbed_1",
+                          "category": "Message",
+                          "type": "Send Embed",
+                          "fields": [
+                            {
+                              "name": "💎 **Price:**",
+                              "value": "${tempVars.GiveawayName}",
+                              "inline": "false"
+                            },
+                            {
+                              "name": "⏱ **Time:**",
+                              "value": "${tempVars.GiveawayTime} hours",
+                              "inline": "false"
+                            },
+                            {
+                              "name": "👤 **Winner:**",
+                              "value": "${tempVars.randomUser}\n",
+                              "inline": "true"
+                            }
+                          ],
+                          "messageActionRows": [],
+                          "channelname": "${tempVars.giveAwayEmbed.channel.id}",
+                          "color": "FF00E1",
+                          "title": "🎉 Giveaway! 🎉",
+                          "url": "",
+                          "authorname": "From ${dbsVars.CommandAuthor.user.tag}",
+                          "authorimageurl": "",
+                          "authorlink": "",
+                          "description": "",
+                          "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+                          "image": "",
+                          "footer": "",
+                          "timestamp": "BOOL_TRUE@@",
+                          "savetovariable": "FinalGiveawayEmbed",
+                          "savetovariabletype": "temp"
+                        }
+                      ]
+                    },
+                    "messageActionRows": [],
+                    "varname": "${tempVars.timeEmbed}"
+                  }
+                ]
+              },
+              "messageActionRows": [],
+              "message": "${tempVars.giveAwayEmbed.id}",
+              "duration": "0",
+              "reactionemoji": "GiveawayEmoji",
+              "reactionuser": "GiveawayUser",
+              "react": "BOOL_TRUE@@"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "HelpEmbed_1_1_2",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Failed",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "${dbsVars.CommandAuthor.displayName} you don't be in the team!",
+              "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "image": "",
+              "footer": "Pawak System",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "A-Team"
+        }
+      ]
+    },
+    {
+      "name": "bestfriend",
+      "actions": [
+        {
+          "name": "DeleteMessage_1_1_2",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "Message",
+          "category": "Message",
+          "type": "Send Message",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+          "messagetext": "Hi <@${dbsVars.CommandAuthor.id}>,\nyour my best friend now! ^^",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "Image",
+          "category": "Message",
+          "type": "Send Image",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+          "url": "https://media.giphy.com/media/Lb3vIJjaSIQWA/giphy.gif",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "Wait_1",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "15",
+          "unit": "seconds"
+        },
+        {
+          "name": "Message_1",
+          "category": "Message",
+          "type": "Send Message",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+          "messagetext": "thanks ...",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "coins",
+      "actions": [
+        {
+          "name": "DeleteMessage_1_1_2_1_2",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "getCoins",
+          "category": "User Data",
+          "type": "Get User Data",
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "coins",
+          "varname": "PawakCoins",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "CoinsEmbed",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "579900",
+          "title": "",
+          "url": "",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "",
+          "description": "You have **${tempVars.PawakCoins}** <:PawakCoin:1049724576143253535>",
+          "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "coins_set",
+      "perms": [],
+      "actions": [
+        {
+          "name": "DeleteMessage_1_1_2_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "CoinsValue",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "setCoins",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "CheckUserIf",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "giveCoins",
+              "category": "User Data",
+              "type": "Set User Data",
+              "messageActionRows": [],
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "coins",
+              "fieldvalue": "${tempVars.setCoins}"
+            },
+            {
+              "name": "ErrorEmbed_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "00FF48",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "You set your PawakCoins to **${tempVars.setCoins}**",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "ErrorEmbed",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Error",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "You have not the permission to give coins!",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "Leader"
+        }
+      ]
+    },
+    {
+      "name": "coins_give",
+      "actions": [
+        {
+          "name": "DeleteMessage_1_1_2_1_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "CoinsValue_1",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "giveCoins",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "CheckCheck",
+          "category": "User Action",
+          "type": "Check If User Has Role",
+          "trueActions": [
+            {
+              "name": "giveCoins2",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "messageActionRows": [],
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "coins",
+              "oper": "+",
+              "value": "${tempVars.giveCoins}"
+            },
+            {
+              "name": "ErrorEmbed_1_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "00FF48",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "You have now **${tempVars.giveCoins}** PawakCoins more!",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "ErrorEmbed_2",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Error",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "You have not the permission to give coins!",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "role": "Leader"
+        }
+      ]
+    },
+    {
+      "name": "shop",
+      "perms": [
+        "leader"
+      ],
+      "actions": [
+        {
+          "name": "CoinsEmbed_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Buy VIP for Dumbass",
+                  "customid": "vipBTN",
+                  "style": "SUCCESS",
+                  "emoji": "",
+                  "URL": "",
+                  "ephemeral": true
+                }
+              ]
+            },
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Buy Raid",
+                  "customid": "raidBTN",
+                  "style": "SUCCESS",
+                  "emoji": "",
+                  "URL": "",
+                  "ephemeral": true
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "579900",
+          "title": "Shop",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**VIP for Dumbass** = 1000 <:PawakCoin:1049724576143253535>\n``With the role you can do nothing.``\n\n**Raid** = 5000 <:PawakCoin:1049724576143253535>\n``With the raid you can steal other people's Pawak Coins. You can only do it once per raid!``",
+          "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "raid",
+      "actions": [
+        {
+          "name": "RaidUser",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "messageActionRows": [],
+          "varname": "UserToRaid",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "CheckUserRaid",
+          "category": "User Data",
+          "type": "Check User Data",
+          "trueActions": [
+            {
+              "name": "getCoins_1",
+              "category": "User Data",
+              "type": "Get User Data",
+              "messageActionRows": [],
+              "user": "${tempVars.UserToRaid.id}",
+              "field": "coins",
+              "varname": "RaidPawakCoins",
+              "savevartype": "temp",
+              "vartype": "User"
+            },
+            {
+              "name": "UserWhoRaid",
+              "category": "User Data",
+              "type": "Edit User Data",
+              "messageActionRows": [],
+              "user": "${dbsVars.CommandAuthor.id}",
+              "field": "coins",
+              "oper": "+",
+              "value": "${tempVars.RaidPawakCoins}"
+            },
+            {
+              "name": "UserRaid",
+              "category": "User Data",
+              "type": "Set User Data",
+              "messageActionRows": [],
+              "user": "${tempVars.UserToRaid.id}",
+              "field": "coins",
+              "fieldvalue": "0"
+            },
+            {
+              "name": "ErrorEmbed_2_1_2",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "579900",
+              "title": "Error",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "You have raid <@${tempVars.UserToRaid.id}>.\nYou stole **${tempVars.RaidPawakCoins}**<:PawakCoin:1049724576143253535>!",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "ErrorEmbed_2_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "messageActionRows": [],
+              "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+              "color": "FF0000",
+              "title": "Error",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "You don't have a raid!",
+              "thumbnail": "https://media.discordapp.net/attachments/1031983546950242385/1063845802516160662/ei_1673710938599-removebg-preview.png?width=489&height=488",
+              "image": "",
+              "footer": "",
+              "timestamp": "false",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "raid",
+          "compare": "greater than",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "s",
+      "actions": []
+    },
+    {
+      "name": "coins_see",
+      "perms": [
+        "a-team"
+      ],
+      "actions": [
+        {
+          "name": "DeleteMessage_1_1_2_1_1_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "RaidUser_2",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "messageActionRows": [],
+          "varname": "SeeUserCoins",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "getCoins_1_1",
+          "category": "User Data",
+          "type": "Get User Data",
+          "messageActionRows": [],
+          "user": "${tempVars.SeeUserCoins.id}",
+          "field": "coins",
+          "varname": "UserCoinsAcc",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "ErrorEmbed_2_1_1_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+          "color": "579900",
+          "title": "User Account ",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "User: <@${tempVars.SeeUserCoins.id}>\nhave **${tempVars.UserCoinsAcc}** Coins",
+          "thumbnail": "${tempVars.SeeUserCoins.user.avatarURL}",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "raid_see",
+      "actions": [
+        {
+          "name": "DeleteMessage_1_1_2_1_2_1",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "GetUserRaid",
+          "category": "User Data",
+          "type": "Get User Data",
+          "messageActionRows": [],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "raid",
+          "varname": "UserRaidCount",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "CoinsEmbed_2",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "579900",
+          "title": "",
+          "url": "",
+          "authorname": "${dbsVars.CommandAuthor.displayName}",
+          "authorimageurl": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "authorlink": "",
+          "description": "You have **${tempVars.UserRaidCount}** Raids!",
+          "thumbnail": "${dbsVars.CommandAuthor.user.avatarURL}",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "version",
+      "actions": [
+        {
+          "name": "DeleteMessage_1_2",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${dbsVars.CommandMessage.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "vText",
+          "category": "Message",
+          "type": "Send Message",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "messagetext": "V1.5.0",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "ff",
+      "actions": []
+    },
+    {
+      "name": "ffcode",
+      "perms": [],
+      "actions": []
+    }
+  ]
+}
